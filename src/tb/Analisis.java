@@ -16,7 +16,7 @@ public class Analisis{
         return a;
     }
     public boolean analisis_rasio(){
-        if(in.hitung_rasio() >= 0.5){
+        if(hitung_rasio() >= 0.5){
             System.out.println("sesuai");
             b = true;
         }
@@ -103,8 +103,8 @@ public class Analisis{
         }
         return i;
     }
-    /*public boolean analisis_internet(){
-        if(in.getSsid() == in.getSsid().equalsIgnoreCase("umm")){
+    public boolean analisis_internet(){
+        if(in.getSsid().equalsIgnoreCase("umm")){
             System.out.println("sesuai");
             j = true;
         }
@@ -112,7 +112,7 @@ public class Analisis{
             System.out.println("tidak sesuai");
         }
         return j;
-    }*/
+    }
     public boolean analisis_cctv(){
         if(in.getJ_cctv() == 2){
             System.out.println("sesuai");
@@ -155,5 +155,16 @@ public class Analisis{
             System.out.println("tidak sesuai");
             n = false;
         }
-}
+        return n;
+        }
+    public double hitung(){
+        return in.getP_ruang() * in.getL_ruang();
+    }
+    public double hitung_rasio(){
+        return hitung() / in.getJ_kursi();
+    }
+    public void tampil(){
+        System.out.println("hasil luas : "+hitung());
+        System.out.println("hasil rasio : "+hitung_rasio());
+    }
 }
