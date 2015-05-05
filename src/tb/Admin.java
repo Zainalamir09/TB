@@ -25,5 +25,21 @@ public class Admin {
                 System.out.println("SELESAI");
             }
         } 
+         Analisis k= new Analisis();
+        k.analisis_ac();
+        k.analisis_bentuk();
+        k.analisis_cahaya();
+        k.analisis_cctv();
+        k.analisis_internet();
+        k.analisis_jendela();
+        k.analisis_kabel_lcd();
+        k.analisis_kelembapan();
+        k.analisis_kipas();
+        k.analisis_lampu();
+        k.analisis_pintu();
+        k.analisis_rasio();
+        k.analisis_steker();
+        k.analisis_suhu();
+       
     }
 }
