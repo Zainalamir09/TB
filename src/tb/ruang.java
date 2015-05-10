@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ruang {
     Input in=new Input();
-    Scanner j=new Scanner(System.in);
+    Scanner j=new Scanner(System.in); 
     public void data(){
          System.out.println("masukkan ruang : ");
         in.setRuang(j.next());
