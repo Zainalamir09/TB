@@ -9,12 +9,11 @@ public class Admin {
         Scanner in = new Scanner(System.in);
         Inventaris mulai = new Inventaris();
         for(int i=0; i<ulang.length;){
-            mulai.input();
+            mulai.data();
             mulai.kebersihan();
             mulai.lingkungan();
             mulai.kenyamanan();
             mulai.keamanan();
-            mulai.tampil();
             System.out.println("edit data (ya / tidak) : ");
             ul = in.next();
             if(ul.equalsIgnoreCase("ya")){
@@ -25,7 +24,7 @@ public class Admin {
                 System.out.println("SELESAI");
             }
         } 
-         Analisis k= new Analisis();
+        Analisis k= new Analisis();
         k.analisis_ac();
         k.analisis_bentuk();
         k.analisis_cahaya();
@@ -41,5 +40,5 @@ public class Admin {
         k.analisis_steker();
         k.analisis_suhu();
        
+        
     }
-}
