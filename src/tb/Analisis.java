@@ -2,7 +2,8 @@ package tb;
 
 public class Analisis{
     boolean a,b,c,d,e,f,g,h,j,k,l,m,n,i;
-    Inventaris in=new Inventaris();
+
+    Input in=new Input();
     public boolean analisis_bentuk(){
         if(in.getP_ruang() != in.getL_ruang()){
             System.out.println("bentuk : persegi panjang");
@@ -163,8 +164,5 @@ public class Analisis{
     public double hitung_rasio(){
         return hitung() / in.getJ_kursi();
     }
-    public void tampil(){
-        System.out.println("hasil luas : "+hitung());
-        System.out.println("hasil rasio : "+hitung_rasio());
-    }
+    
 }
