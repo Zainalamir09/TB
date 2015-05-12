@@ -29,7 +29,7 @@ public void n_ruang(){
         in.setJ_kabel_lcd(j.nextInt());
         System.out.println("kondisi kabel LCD : ");
         in.setKon_kabel_lcd(j.next());
-        System.out.println("posisi kable LCD : ");
+        System.out.println("posisi kable LCD : "); 
         in.setPos_kabel_lcd(j.next());
         System.out.println("masukkan jumlah lampu : ");
         in.setJ_lampu(j.nextInt());
