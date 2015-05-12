@@ -29,7 +29,7 @@ public class Input {
     private String kon_cctv;
     private String pos_cctv;
     private String kon_lantai;
-    private String kon_dinding;
+    private String kon_dinding; 
     private String kon_atap;
     private String kon_pintu;
     private String kon_jendela;
