@@ -4,6 +4,22 @@ import java.util.Scanner;
 public class Inventaris extends ruang {
     Scanner ruang = new Scanner(System.in);
     Input in = new Input();
+@Override
+    public void n_ruang(){
+        System.out.println("masukan ruang : ");
+        in.setRuang(ruang.next());
+        System.out.println("masukan lokasi ruang: ");
+        in.setLokasi_ruang(ruang.next());
+        System.out.println("fakultas/prodi :");
+        in.setProdi(ruang.next());
+        }
+    @Override
+   public void u_ruang(){
+        System.out.println("masukan panjang: ");
+        in.setP_ruang(ruang.nextInt());
+        System.out.println("masukan lebar ; ");
+        in.setL_ruang(ruang.nextInt());
+   }
    
     public void kebersihan(){
         System.out.println("kondisi lantai : ");
