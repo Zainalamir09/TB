@@ -2,15 +2,10 @@
 package tb;
 import java.util.Scanner;
 
-public class ruang {
+public abstract class ruang {
     Input in=new Input();
     Scanner j=new Scanner(System.in);
-public void n_ruang(){
-    in.setData("412","GKB 3","Inormatika");
-}
-    public void u_ruang(){
-        in.setData(6,4);
-    }
+
     public void data(){
          
         System.out.println("masukkan jumlah kursi : ");
