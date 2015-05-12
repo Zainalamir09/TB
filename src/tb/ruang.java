@@ -4,18 +4,15 @@ import java.util.Scanner;
 
 public class ruang {
     Input in=new Input();
-    Scanner j=new Scanner(System.in); 
+    Scanner j=new Scanner(System.in);
+public void n_ruang(){
+    in.setData("412","GKB 3","Inormatika");
+}
+    public void u_ruang(){
+        in.setData(6,4);
+    }
     public void data(){
-         System.out.println("masukkan ruang : ");
-        in.setRuang(j.next());
-        System.out.println("masukkan lokasi ruang : ");
-        in.setLokasi_ruang(j.next());
-        System.out.println("masukkan fakultas / program studi : ");
-        in.setProdi(j.next());
-        System.out.println("masukkan panjang : ");
-        in.setP_ruang(j.nextInt());
-        System.out.println("masukkan lebar : ");
-        in.setL_ruang(j.nextInt());
+         
         System.out.println("masukkan jumlah kursi : ");
         in.setJ_kursi(j.nextInt());
         System.out.println("masukkan jumlah pintu : ");
