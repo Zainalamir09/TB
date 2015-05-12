@@ -415,5 +415,15 @@ public class Input {
     public void setProdi(String prodi) {
         this.prodi = prodi;
     }
+    void setData(String ruang, String lokasi_ruang, String prodi){
+        this.ruang = ruang;
+        this.lokasi_ruang = lokasi_ruang;
+        this.prodi = prodi;
+    }
+    void setData(int p_ruang, int l_ruang){
+        this.p_ruang = p_ruang;
+        this.l_ruang = l_ruang;
+    }
+    
     
 }
