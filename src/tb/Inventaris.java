@@ -1,7 +1,7 @@
 
 package tb;
 import java.util.Scanner;
-public class Inventaris extends ruang {
+public class Inventaris extends ruang implements implem {
     Scanner ruang = new Scanner(System.in);
     Input in = new Input();
 @Override
