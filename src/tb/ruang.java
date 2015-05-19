@@ -1,4 +1,3 @@
-
 package tb;
 import java.util.Scanner;
 
