@@ -5,7 +5,8 @@ import java.util.Scanner;
 public abstract class ruang {
     Input in=new Input();
     Scanner j=new Scanner(System.in);
-
+    public abstract void n_ruang();
+    public abstract void u_ruang();
     public void data(){
          
         System.out.println("masukkan jumlah kursi : ");
